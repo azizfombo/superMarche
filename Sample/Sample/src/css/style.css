@@ -1,0 +1,62 @@
+.line-color{
+	-fx-background-color: rgb(34,177,76);
+}
+
+.container-background{
+	-fx-background-color: rgba(255,255,255,0.5);
+	-fx-background-radius: 10;
+}
+
+.shadow{
+	-fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0, 0.0, 10.0);
+	-fx-text-fill: rgb(34,177,76);
+}
+
+.shadow1{
+	-fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0, 0.0, 10.0);
+	-fx-text-fill: rgb(34,177,76);
+}
+
+.shadow2{
+	-fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.2), 10.0, 0.0, 0.0, 10.0);
+	-fx-text-fill: lightgray;
+}
+
+.shadow:hover{
+	-fx-effect: dropshadow(three-pass-box, rgba(34,177,7,60.5), 10.0, 0.0, 0.0, 10.0) ;
+	-fx-text-fill: black;
+}
+
+.shadow2:hover{
+	-fx-effect: dropshadow(three-pass-box, rgba(34,177,7,60.5), 10.0, 0.0, 0.0, 10.0) ;
+	-fx-text-fill: lightgray;
+}
+
+.shadow:active{
+	-fx-text-fill: whitesmoke;
+}
+.axis{
+	-fx-stroke: green;
+	-fx-fill: black;
+	-fx-font-size: 24;
+	-fx-tick-label-fill: green;
+}
+
+.default-color0.chart-pie{-fx-pie-color: green;}
+.default-color1.chart-pie{-fx-pie-color: red;}
+.default-color2.chart-pie{-fx-pie-color: yellow;}
+
+.chart-pie-label{
+	-fx-fill: black;
+	-fx-stroke: black;
+	-fx-font-size: 15;
+}
+
+.chart-pie-label-line{
+	-fx-fill: rgb(34,177,76);
+	-fx-stroke: black;
+}
+
+.hbbgcolor{
+	-fx-background-color: green;
+}
